@@ -1,0 +1,100 @@
+header{
+  height: 15rem;
+  background-color: black;
+}
+body{
+  background-color: #A0AFB8;
+  font-family: "JFドットAyuゴシック18";
+}
+.cardsTop {
+    position: absolute;
+    top: 500px;
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+.cardsTop div{
+    border: 10px solid #D1E1EB;
+    background-color: black;
+    font-size: 50px;
+    color: white;
+    height: 100px;
+    width: 230px;
+    margin: 20px;
+    text-align: center;
+}
+.cardsBottom {
+  position: absolute;
+  top: 640px;
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+.cardsBottom div{
+  border: 10px solid #D1E1EB;
+  background-color: black;
+  font-size: 50px;
+  color: white;
+  height: 100px;
+  width: 230px;
+  margin: 20px;
+  text-align: center;
+}
+.PcScreen{
+    position: relative;
+    margin-top: 200px;
+    padding-bottom: 220px;
+}
+#frameQuestionImg{
+  position: absolute;
+  width: 95%;
+  top: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+#frameText{
+  position: absolute;
+  top:-20%;
+  left: 10%;
+  font-size: 40px;
+  color: white;
+}
+#pcScreenImg{
+  display: block;
+  margin: auto;
+  width: 900px;
+  /* filter: sepia(100%); */
+}
+#pcScreenText{
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  font-size: 50px;
+  color: black;
+}
+#passwordText{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size: 50px;
+    color: black;
+}
+#clearButton{
+  display: block; 
+  margin:auto;
+  width: 400px;
+  height: 180px;
+}
+#studentCard{
+  padding-left:40px;
+  padding-top: 20px; 
+  width:900px;
+}
+
+
+
+
